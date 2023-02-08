@@ -1,6 +1,13 @@
-# Tutorial React Native
+# Avanzado
+```
+yarn install
+```
 
-## Tomar fotos de galería y librería y subir archivos en React Native.
+Versión de node recomendada: ver archivo [.nvmrc](https://github.com/jlabs-utils/react-native-take-and-upload-files/blob/main/.nvmrc)
+
+
+# Tutorial
+## Capturar fotos con cámara, seleccionar fotos de galería y subir archivos con React Native
 
 Esto es una tarea sencilla si encontramos las librerías adecuadas, en este ejemplo he usado la librería [react-native-image-picker](https://www.npmjs.com/package/react-native-image-picker) para capturar fotos con la cámara y seleccionar archivos desde la galería.
 
@@ -21,7 +28,8 @@ cafeApi.interceptors.request.use(async config => {
   return config;
 });
 
-export default cafeApi;
+export default axiosApi;
+
 ```
 
 Aquí se debe actualizar la baseURL con la url que estés usando, si tu URL no tiene puerto puedes omitirlo junto a los dos puntos que le preceden.
@@ -35,6 +43,7 @@ const baseURL = 'http://starlly.com/api';
 //Con puerto
 const baseURL = 'http://localhost:8000/api';
 ```
+
 
 # Implementación en React
 
@@ -60,4 +69,6 @@ yarn android
 yarn ios
 ```
 
-De esta forma, deberías ver algo como esto:
+De esta forma, deberías ver algo como esto, donde podrás tomar fotos o seleccionarlas de tu galería y subirlas al servidor que hayas configurado en el archivo `src/api/axiosApi.js:`
+<br/>
+<img src="https://user-images.githubusercontent.com/8765273/217450332-371f1d7f-0e0d-4265-a7a1-15574fef8b3f.jpeg" width="300"/>
