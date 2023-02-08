@@ -72,3 +72,5 @@ yarn ios
 De esta forma, deberías ver algo como esto, donde podrás tomar fotos o seleccionarlas de tu galería y subirlas al servidor que hayas configurado en el archivo `src/api/axiosApi.js:`
 <br/>
 <img src="https://user-images.githubusercontent.com/8765273/217450332-371f1d7f-0e0d-4265-a7a1-15574fef8b3f.jpeg" width="300"/>
+
+El archivo de interes donde podras encontrar toda la implementacion es https://github.com/jlabs-utils/react-native-take-and-upload-files/blob/main/App.tsx he implementado algo muy sencillo para no dar tantas vueltas en este ejercicio, lo ideal es siempre contar con una arquitectura y dejar estos metodos accesibles a todos los componentes del programa, por ejemplo por medio de un contexto o un hook que este al alcance de cualquier capa.
