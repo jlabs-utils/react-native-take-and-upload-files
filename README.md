@@ -7,7 +7,7 @@ Versión de node recomendada: ver archivo [.nvmrc](https://github.com/jlabs-util
 
 
 # Tutorial
-## Tomar fotos de cámara y galería y subir archivos en React Native.
+## Tomar fotos de cámara y galería y subir archivos con React Native.
 
 Esto es una tarea sencilla si encontramos las librerías adecuadas, en este ejemplo he usado la librería [react-native-image-picker](https://www.npmjs.com/package/react-native-image-picker) para capturar fotos con la cámara y seleccionar archivos desde la galería.
 
