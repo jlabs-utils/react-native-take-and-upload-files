@@ -1,3 +1,11 @@
+# Avanzado
+```
+yarn install
+```
+
+Versión de node recomendada: ver archivo [.nvmrc](https://github.com/jlabs-utils/react-native-take-and-upload-files/blob/main/.nvmrc)
+
+
 # Tutorial
 ## Tomar fotos de galería y librería y subir archivos en React Native.
 
