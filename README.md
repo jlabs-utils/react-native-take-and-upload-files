@@ -59,6 +59,6 @@ yarn android
 yarn ios
 ```
 
-De esta forma, deberías ver algo como esto, donde podrás tomar fotos o seleccionarlas de tu galería y subirlas al servidor que hayas configurado en el archivo `src/api/axiosApi.js:
+De esta forma, deberías ver algo como esto, donde podrás tomar fotos o seleccionarlas de tu galería y subirlas al servidor que hayas configurado en el archivo `src/api/axiosApi.js:`
 <br/>
 <img src="https://user-images.githubusercontent.com/8765273/217450332-371f1d7f-0e0d-4265-a7a1-15574fef8b3f.jpeg" width="300"/>
