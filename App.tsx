@@ -25,7 +25,7 @@ import {
 } from 'react-native-image-picker';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import cafeApi from './src/api/axiosApi';
+import axiosApi from './src/api/axiosApi';
 
 interface FileTemp {
   uri?: string;
@@ -99,7 +99,7 @@ function App(): JSX.Element {
     formData.append('archivo', file);
 
     try {
-      const resp = await cafeApi.post(`/uploadfile`, formData);
+      const resp = await axiosApi.post(`/uploadfile`, formData);
       console.log(resp);
       Toast.show('Se ha subido el archivo.', Toast.SHORT);
     } catch (error) {
