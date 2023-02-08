@@ -19,7 +19,7 @@ cafeApi.interceptors.request.use(async config => {
   return config;
 });
 
-export default cafeApi;
+export default axiosApi;
 
 ```
 
@@ -34,6 +34,31 @@ const baseURL = 'http://starlly.com/api';
 const baseURL = 'http://localhost:8000/api'; 
 ```
 
+
 # Implementación en React
 
 He creado un proyecto nuevo con el comando `npx react-native init AwesomeProject`, pero en este caso no tendrías que hacerlo, solo tienes que descargar este repositorio ya sea como un ZIP o clonando el repositorio con [git](https://git-scm.com/) con el comando `git clone https://github.com/jlabs-utils/react-native-take-and-upload-files.git`.
+
+Una vez descargado, ejecutar el siguiente comando:
+```bash
+npm install
+```
+Si tienes instalado yarn te recomiendo usarlo en vez de usar npm y ejecutar el siguiente comando:
+```bash
+yarn
+```
+Así una vez instalado podrás ejecutar el proyecto.
+
+```bash
+# Si usas npm:
+npm run android # Si quieres ejecutar el proyecto en android
+npm run ios # Si quieres ejecutar el proyecto en ios
+
+# Si usas yarn:
+yarn android
+yarn ios
+```
+
+De esta forma, deberías ver algo como esto:
+<br/>
+<img src="https://user-images.githubusercontent.com/8765273/217450332-371f1d7f-0e0d-4265-a7a1-15574fef8b3f.jpeg" width="300"/>
