@@ -1,6 +1,6 @@
 # Avanzado
 ```
-yarn install
+yarn
 ```
 
 Versión de node recomendada: ver archivo [.nvmrc](https://github.com/jlabs-utils/react-native-take-and-upload-files/blob/main/.nvmrc)
